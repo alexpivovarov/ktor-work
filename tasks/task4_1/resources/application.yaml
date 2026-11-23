@@ -1,0 +1,6 @@
+ktor:
+    application:
+        modules:
+            - org.jetbrains.amper.ktor.ApplicationKt.module # any module listed in the modules section of the config file will be executed when the application starts up
+    deployment:
+        port: 8080 #the server will listen on port 8080 once deployed
